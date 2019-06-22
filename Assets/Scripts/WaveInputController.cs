@@ -7,17 +7,6 @@ public class WaveInputController : MonoBehaviour
 	public LevelController levelController;
 	public Transform waveRoot;
 
-	private GameObject sphereA;
-	private GameObject sphereB;
-
-	private void Awake()
-	{
-		sphereA = new GameObject("Start");
-		sphereA.transform.localScale = Vector3.one * 0.1f;
-		sphereB = new GameObject("End");
-		sphereB.transform.localScale = Vector3.one * 0.1f;
-	}
-
 	void Update ()
 	{
 		var isTriggered = WaveVR_Controller.Input(WVR_DeviceType.WVR_DeviceType_Controller_Right).GetPressDown(WVR_InputId.WVR_InputId_Alias1_Menu);		

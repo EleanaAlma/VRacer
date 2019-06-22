@@ -5613,7 +5613,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 220
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -7861,6 +7861,16 @@ Prefab:
       propertyPath: _origin
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 20106595620663252, guid: 2607fe513a415124381fcf84b5b83646,
+        type: 2}
+      propertyPath: far clip plane
+      value: 2250
+      objectReference: {fileID: 0}
+    - target: {fileID: 20106595620663252, guid: 2607fe513a415124381fcf84b5b83646,
+        type: 2}
+      propertyPath: field of view
+      value: 118
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2607fe513a415124381fcf84b5b83646, type: 2}
   m_IsPrefabAsset: 0
@@ -9119,7 +9129,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 220
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -10019,9 +10029,34 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4280268451184274, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.587
+      value: -0.787
       objectReference: {fileID: 0}
     - target: {fileID: 1370450605093358, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286060157365436, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526217655701254, guid: 689ae903e20b8964da0d78a27d350f8f,
+        type: 2}
+      propertyPath: m_Text
+      value: 0.00 km
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052609663668976, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992164684292628, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573245656736552, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1860298621726714, guid: 689ae903e20b8964da0d78a27d350f8f, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
